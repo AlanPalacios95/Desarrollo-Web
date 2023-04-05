@@ -46,4 +46,5 @@ index.html</p>
 ## Deploy
 Si te gustaria ver la pagina funcionando
     [Haz clic aqui
-   ](https://alanpalacios95.github.io/ProyectoFinal-Palacios/)
+   ](https://alanpalacios95.github.io/primer-proyecto/)
+   
