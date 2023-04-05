@@ -632,16 +632,10 @@ footer {
 }
 .main__div {
   background-color: #e0e0e0;
-  padding: 0;
-}
-
-.main__section {
-  padding: 0;
 }
 
 .noticias {
   background-color: #000000;
-  margin: 1rem;
 }
 .noticias__titulo {
   text-align: center;
