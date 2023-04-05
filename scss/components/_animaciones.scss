@@ -1,0 +1,38 @@
+.noticias__titulo {
+  opacity: 0;
+  animation: titulo_index 6s ease-in-out 0s infinite;
+}
+
+@keyframes titulo_index {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.articulo2-section2__img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.articulo2-section2__img:hover {
+  transform: scale(1.1);
+}
+
+.articulo4-section2__img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.articulo4-section2__img:hover {
+  transform: scale(1.1);
+}

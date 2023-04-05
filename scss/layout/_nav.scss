@@ -1,0 +1,89 @@
+.nav {
+    grid-area: header;
+    background-color: black;
+    border: 2px solid white;
+    padding: 0;
+    margin: 0;
+
+    &__div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__a {
+        margin-right: auto;
+        color: white;
+        height: 4rem;
+        font-size: 2rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+        padding: 0 0.5rem;
+    }
+
+    &__link:hover {
+        color: $color-principal;
+    }
+
+    &__button {
+        background-color: #ffffff;
+    }
+}
+
+.nav__responsive {
+    display: none;
+}
+
+@include movil {
+    .nav {
+        display: none;
+
+        &__responsive {
+            grid-area: nav;
+            display: flex;
+            background: radial-gradient(circle, rgb(2, 6, 6) 0%, rgb(41, 62, 59) 56%);
+            height: 6rem;
+            align-items: flex-end;
+            justify-content: space-around;
+        }
+    }
+
+
+    .responsive__content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .responsive__ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        column-gap: 1.3rem;
+        padding: 0;
+    }
+
+    .responsive__item {
+        display: flex;
+    }
+
+    .item__nombre {
+        text-decoration: none;
+        text-align: center;
+        font-size: 11px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item__icon {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-size: 2rem;
+        display: flex;
+    }
+
+}

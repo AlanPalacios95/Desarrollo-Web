@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="0sn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/d117241dad.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald&family=Zilla+Slab:ital,wght@0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon">
+    <title>Dementesgamers - Mi cuenta</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav navbar navbar-expand-lg">
+                <div class="nav__div container-fluid">
+                    <a class="nav__a navbar-brand me-auto" href="../index.html">DEMENTESGAMERS</a>
+                    <button class="nav__button navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="nav__ul navbar-nav ms-auto mb-2 mb-lg-0 fs-4">
+                            <li class="nav__li"><a href="../index.html" class="nav__link">Inicio</a></li>
+                            <li class="nav__li"><a href="./mi_cuenta.html" class="nav__link">Mi cuenta</a>
+                            </li>
+                            <li class="nav__li"><a href="./sobre-nosotros.html" class="nav__link">Sobre
+                                    Nosotros</a> </li>
+                            <li class="nav__li"><a href="./contacto.html" class="nav__link">Contacto</a>
+                            </li>
+                            <li class="nav__li"><a href="./proximamente.html" class="nav__link">Proximamente</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="fixed-bottom nav__responsive">
+            <div class="container-fluid">
+                <div class="responsive__content">
+                    <ul class="responsive__ul">
+                        <li class="responsive__item"><a href="./sobre-nosotros.html" class="item__nombre"><i
+                                    class="fa-solid fa-users item__icon"></i>¿Quienes somos?</a></li>
+                        <li class="responsive__item"><a href="./mi_cuenta.html" class="item__nombre"><i
+                                    class="fa-solid fa-user item__icon"></i>Cuenta</a></li>
+                        <li class="responsive__item"><a href="../index.html" class="item__nombre"><i
+                                    class="fa-solid fa-house item__icon"></i>Inicio</a></li>
+                        <li class="responsive__item"><a href="./contacto.html" class="item__nombre"><i
+                                    class="fa-solid fa-message item__icon"></i>Contacto</a></li>
+                        <li class="responsive__item"><a href="./proximamente.html" class="item__nombre"><i
+                                    class="fa-sharp fa-solid fa-exclamation item__icon"></i>Proximamente</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 offset-lg-3">
+                <h1 class="mi-cuenta__titulo">Bienvenido a esta comunidad</h1>
+                <div class="mi-cuenta__registro">
+                    <h2>Inicio de Sesión</h2>
+                    <p>¿Todavia no sos miembro? <a href="./404-error.html">Haz click aqui</a></p>
+                    <div>
+                        <form>
+                            <fieldset class="mi-cuenta__fieldset">
+                                <legend>Cuenta de Usuario</legend>
+                                <label for="nombre">Usuario</label>
+                                <input type="text" id="nombre">
+                                <label for="contraseña">Contraseña</label>
+                                <input type="password" id="contraseña">
+                                <button type="submit">Inicio de sesion</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer  container-fluid col-xs-12 col-sm-12 col-lg-12">
+            <div class="footer__body row">
+                <div class="footer__content col-md-4">
+                    <h4 class="footer__h4">FAQ</h4>
+                    <ul class="footer__ul">
+                        <li><a class="footer__link" href="./pages/sobre-nosotros.html">Sobre nosotros</a></li>
+                        <li><a class="footer__link" href="./404-error.html">Normas</a></li>
+                        <li><a class="footer__link" href="./pages/contacto.html">Trabaja con nosotros</a></li>
+                        <li><a class="footer__link" href="./404-error.html">Reportar</a></li>
+                    </ul>
+                </div>
+                <div class="footer__content col-md-4">
+                    <h4 class="footer__h4">Contacto</h4>
+                    <p>Dirección: Calle Falsa 123</p>
+                    <p>Teléfono: 555-123-4567</p>
+                    <p>Email: ejemplo@ejemplo.com</p>
+                </div>
+                <div class="footer__content col-md-4">
+                    <h4 class="footer__h4">Seguinos en:</h4>
+                    <ul class="footer__ul-active social-icons">
+                        <li><a class="btn--facebook " href="https://www.facebook.com/dementesgamers" target="_blank"><i
+                                    class="footer__icon fa fa-facebook"></i></a></li>
+                        <li><a class="btn--twitter " href="https://twitter.com/Dementesgamers2" target="_blank"><i
+                                    class=" fa fa-twitter"></i></a></li>
+                        <li><a class="btn--instagram " href="https://www.instagram.com/dementesgamers/?hl=es-la" target="_blank"><i
+                                    class="fa fa-instagram"></i></a></li>
+                        <li><a class=" btn--linkedin" href="https://www.linkedin.com/" target="_blank"><i
+                                    class=" fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                    <p class="text-center">Derechos de autor © 2023 Nombre de la empresa. Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
